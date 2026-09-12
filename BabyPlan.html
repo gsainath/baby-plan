@@ -1,0 +1,1267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Baby Plan</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Baby Plan">
+<meta name="theme-color" content="#1F3A2A">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEdUlEQVR4nL2XW4hVVRjHf99aa+9zca6Ol9RGw2HCy4thpqmQJkgUQQQHCcRXX/Ip6KUXn6OXLhC+9VTYQDBQDwpDXqjRJBF1NK1j6aijY6Od8TLn7LPX+no4M1K+nD0X/TabfWHv7///vvVf3/qWAFDC0odfumFVV5wz76vyLtCLkgeE2ZkiVIHfRfguqYUvbp76bWwKU6Zulr+6eoex9oAYejQoqjpL3P+biCBG0EA5eL/32uDFAUpYAVixZe02Y2QAwYQ0pCJimX3kT5qqqjfOOJQQgu64+tPQEXl+05r51nLGWNut3qeIuDkGfpJGKta64P2w96xzLjb7rDHdIfVejHm64AAijhC8i1y32LDPibJLVbUxSNP0NXmdvlpEVFVF2eUQ6QFERDLDGwOqkIbGszMgAiFkxcdM8uhxIsSTLzPwBhTuJ0pshfZc46dKTUm80hIJSINcJh5C7LIGLkDA4IG3ex3bV0QsKhoQGH0Y+PFqwuE/EyyClezD4jJFDngF6g/48JUC23uK1IlIJ+vFoqJl/ZKYl5fW+eTkBCF4TEYSrpnyRIR6PWHBwiV8vHc3K2vnuD18kfTBKCJgXJ4kqVPxntcWK3deTPjyvKElNoQMDJpmQKQRfWcONm9+g0Teoe3BbWpjfzE29D2+Os6SLXtJ7o/ia/fZ/dI/DHx+kCujFfKRIzQRRFMNGCOkWHrb6ujEGN51YON5tPduQ6xj/M9BWrrXk1Yr4IoUkjus7erj0i2hKNJ0GDJpACO0RyniE3CChnoDUJX8gh7SagU/UYE48Oj2BebpOFgH0nwMmmsAQcRw91GCIrhCB6FWgRBwxU5ssRMbtyBikFw7E+Mj3HuYYEwRCE3ja5qBIErOCefvpJSPHqBt5VYKi1eT61hGrnM51b/L3Dz2Ga44n7j1Oe5dOc3QPSG2imbIbqY6kHdw7aHw7dFB3rv1C9dpI9+xjOWvf0Bae8DIia+QuMiCvND3h2G4mqclgqBCM/cGgWanAkUH31yJODRSoCMK6K3T1Cs3sFGettZ2uto7ODRS4OvLStFN1oAMvptq4DFTA6jy6a9VTo9GbF2Yo4sI55VTIwnHRw3Hr9eJLRgRVLM1FNlmAY2IjEA+gmM3PD9cmuCFt+q0zUv56OcaxUJEIWp8+Dj6LASmsQg+ttZY8JHQUihSzBUoOKE1FtLQWIym4zFzBv5rQQExDJUvA41iE2BGTZyseXPDjLvPepoCSuSimbqYWQamLI4bwLPpoGekgSdtNj4ckDDVFT1rUxInQlmMWaWNddM8I+ggRkRDKBuEg8YZUVSzVK65OBVV44wgHJQ1OzfNt3nOGGe6vfep8HQ3Joqm1loX0jDsq6wzFw6fuBtE9ygE66xTtDG35jpyUEXTBgYhiO65cPjEXUOpZIf6Tx5RrztBylEcOeOsNPYpc3SIYJyVKI4cSFm97hzqP3mEUska+vp8qVSy5/oHB2o+2aga9qN6FmQCmZNMKMgEqmdVw/6aTzae6x8cKJVKlr4+/y+/JNczZLJG3gAAAABJRU5ErkJggg==">
+<style>
+:root {
+  --paper: #EEF1E6;
+  --card: #FBFBF7;
+  --forest-dark: #1F3A2A;
+  --forest: #2F523A;
+  --gold: #C98F3C;
+  --ink: #22301D;
+  --ink-secondary: #5B6656;
+  --line: rgba(34,48,29,0.14);
+  --danger: #A6473B;
+}
+
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  height: 100dvh;
+  max-width: 560px;
+  margin: 0 auto;
+  background: var(--paper);
+}
+
+#app-main {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: calc(env(safe-area-inset-top) + 18px) 16px 32px;
+}
+
+.nav-title-bar { display:flex; align-items:center; gap:8px; margin-bottom: 6px; min-height: 28px; }
+.nav-title-bar h1 { font-family: ui-serif, Georgia, serif; font-weight: 500; font-size: 22px; margin: 0; color: var(--forest-dark); }
+.detail-title { font-family: ui-serif, Georgia, serif; font-weight: 500; font-size: 22px; margin: 2px 0 2px; color: var(--forest-dark); }
+.detail-subtitle { margin-top: 0; margin-bottom: 14px; }
+
+.back-btn {
+  background: none; border: none; padding: 4px 0; margin: 0 0 2px;
+  font-size: 15px; color: var(--forest); font-family: inherit; cursor: pointer;
+}
+.back-btn:active { opacity: .6; }
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 16px;
+  margin: 0 0 16px;
+}
+.card-title { font-family: ui-serif, Georgia, serif; font-weight: 500; font-size: 18px; margin: 0 0 6px; color: var(--forest-dark); }
+.card-hint { font-size: 13px; color: var(--ink-secondary); margin: 0 0 4px; line-height: 1.45; }
+.notes-card p { font-size: 14px; color: var(--ink-secondary); margin: 0 0 8px; line-height: 1.5; }
+.notes-card p:last-child { margin-bottom: 0; }
+
+.age-line { font-family: ui-serif, Georgia, serif; font-size: 19px; margin: 0 0 4px; color: var(--forest-dark); }
+
+.progress-label { font-size: 14px; margin: 0 0 8px; color: var(--ink); }
+.progress-track { height: 8px; background: var(--line); border-radius: 5px; overflow: hidden; }
+.progress-fill { height: 100%; background: var(--gold); border-radius: 5px; transition: width .4s ease; }
+
+.link-btn {
+  background: none; border: none; padding: 8px 0 0; margin: 0;
+  font-size: 14px; color: var(--forest); font-family: inherit; cursor: pointer; text-decoration: underline;
+}
+
+.field { display: block; margin-bottom: 12px; }
+.field span { display: block; font-size: 13px; color: var(--ink-secondary); margin-bottom: 4px; }
+.field input {
+  width: 100%; padding: 10px 12px; border-radius: 9px; border: 1px solid var(--line);
+  background: #fff; font-size: 16px; font-family: inherit; color: var(--ink);
+}
+.field input:focus-visible { outline: 2px solid var(--gold); outline-offset: 1px; }
+
+.field-actions { display: flex; gap: 10px; margin-top: 4px; }
+.btn-primary, .btn-secondary { border: none; border-radius: 9px; padding: 10px 16px; font-size: 15px; font-family: inherit; cursor: pointer; }
+.btn-primary { background: var(--forest-dark); color: #fff; }
+.btn-primary:active { background: var(--forest); }
+.btn-secondary { background: var(--line); color: var(--ink); }
+.btn-danger {
+  background: none; border: 1px solid var(--danger); color: var(--danger); width: 100%;
+  padding: 12px; border-radius: 10px; font-family: inherit; font-size: 15px; cursor: pointer;
+}
+.btn-danger:active { background: rgba(166,71,59,0.08); }
+button:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+
+.section-block { margin-bottom: 26px; }
+.section-heading { font-family: ui-serif, Georgia, serif; font-weight: 500; font-size: 17px; color: var(--forest-dark); margin: 0 0 8px; }
+.stage-name { font-size: 15px; color: var(--ink); margin: 0 0 2px; font-weight: 600; }
+
+.checklist { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.row {
+  display: flex; align-items: flex-start; gap: 12px; padding: 11px 2px;
+  border-bottom: 1px solid var(--line); cursor: pointer;
+}
+.row-check {
+  flex: 0 0 21px; width: 21px; height: 21px; margin-top: 1px;
+  border: 2px solid var(--forest); border-radius: 5px;
+  display: flex; align-items: center; justify-content: center;
+  transition: background .15s ease, border-color .15s ease;
+}
+.row.is-checked .row-check { background: var(--forest); border-color: var(--forest); }
+.row-check svg { width: 12px; height: 12px; }
+.row-text { flex: 1; font-size: 16px; line-height: 1.4; color: var(--ink); }
+.row.is-checked .row-text { color: var(--ink-secondary); text-decoration: line-through; text-decoration-color: var(--ink-secondary); }
+
+.list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.list-row { display: flex; align-items: center; gap: 12px; padding: 13px 2px; border-bottom: 1px solid var(--line); cursor: pointer; }
+.list-row-emoji { font-size: 22px; flex: 0 0 auto; }
+.list-row-body { flex: 1; display: flex; flex-direction: column; gap: 2px; }
+.list-row-title { font-size: 16px; color: var(--ink); }
+.list-row-sub { font-size: 12.5px; color: var(--ink-secondary); }
+.list-row-chevron { color: var(--ink-secondary); font-size: 20px; }
+
+.plain-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.plain-list li { padding: 10px 2px; border-bottom: 1px solid var(--line); font-size: 15px; color: var(--ink); }
+
+.reminder-quote {
+  margin: 0; padding: 14px 16px; background: var(--card); border-left: 3px solid var(--gold);
+  border-radius: 0 10px 10px 0; font-family: ui-serif, Georgia, serif; font-size: 15.5px;
+  line-height: 1.55; color: var(--ink); font-style: italic;
+}
+
+.milestone-list { border-top: none; }
+.milestone-row { border-bottom: 1px solid var(--line); padding: 10px 2px; }
+.milestone-toggle-row { display: flex; align-items: center; gap: 12px; cursor: pointer; }
+.milestone-date { margin: 8px 0 2px 33px; padding: 6px 8px; border-radius: 7px; border: 1px solid var(--line); font-family: inherit; font-size: 14px; }
+.is-checked-text { color: var(--ink-secondary); text-decoration: line-through; }
+
+#tab-bar {
+  display: flex; border-top: 1px solid var(--line); background: var(--card);
+  padding: 6px 4px calc(env(safe-area-inset-bottom) + 4px);
+  flex: 0 0 auto;
+}
+.tab-btn {
+  flex: 1; display: flex; flex-direction: column; align-items: center; gap: 3px;
+  background: none; border: none; padding: 6px 2px; color: var(--ink-secondary);
+  font-family: inherit; font-size: 10.5px; cursor: pointer;
+}
+.tab-btn svg { width: 22px; height: 22px; }
+.tab-btn.active { color: var(--forest-dark); }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
+</style>
+</head>
+<body>
+<div id="app">
+  <main id="app-main"></main>
+  <nav id="tab-bar">
+    <button class="tab-btn active" data-tab="today">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11.5L12 4l8 7.5"/><path d="M6 10v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-9"/></svg>
+      <span>Today</span>
+    </button>
+    <button class="tab-btn" data-tab="sections">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="6" r="1.3" fill="currentColor" stroke="none"/><circle cx="5" cy="12" r="1.3" fill="currentColor" stroke="none"/><circle cx="5" cy="18" r="1.3" fill="currentColor" stroke="none"/><path d="M9.5 6H20M9.5 12H20M9.5 18H20"/></svg>
+      <span>Sections</span>
+    </button>
+    <button class="tab-btn" data-tab="roadmap">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19c3-1 3-5 6-5s3 5 6 5 3-5 6-5"/><circle cx="4" cy="19" r="1" fill="currentColor" stroke="none"/><circle cx="20" cy="14" r="1" fill="currentColor" stroke="none"/></svg>
+      <span>Roadmap</span>
+    </button>
+    <button class="tab-btn" data-tab="milestones">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5.5" width="16" height="14" rx="2"/><path d="M4 10h16M8 3.5v3M16 3.5v3"/><path d="M9 14.5l2 2 4-4"/></svg>
+      <span>Milestones</span>
+    </button>
+    <button class="tab-btn" data-tab="more">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9-5.2-2.8-5.2 2.8 1-5.9-4.3-4.1 5.9-.8z"/></svg>
+      <span>More</span>
+    </button>
+  </nav>
+</div>
+
+<script>
+"use strict";
+
+// ================== PLAN CONTENT ==================
+const RAW_SECTIONS = [
+  { id:"daily", emoji:"⭐", title:"The Daily Foundation", notes:[], groups:[
+    { id:"daily.everyday", title:"Every Day", rawItems:[
+      "Feed appropriately and monitor feeding/growth",
+      "Talk to him throughout the day",
+      "Make eye contact and smile during awake/alert periods",
+      "Respond to his cries and needs",
+      "Give plenty of physical affection and cuddles",
+      "Give supervised floor time and free movement",
+      "Practice age-appropriate tummy time / movement",
+      "Read books together",
+      "Sing songs and nursery rhymes",
+      "Let him hear conversations and normal family language",
+      "Give him opportunities to explore safely",
+      "Spend some quiet one-on-one time with Mom",
+      "Spend some quiet one-on-one time with Dad",
+      "Follow safe sleep practices",
+      "Avoid unnecessary screen exposure",
+      "Observe him without constantly comparing him with other babies",
+      "Dance gently with him while holding him securely",
+      "Play simple movement games such as clapping, bouncing, swaying, and waving",
+      "Give him time to watch facial expressions and body movements",
+      "Offer short periods of quiet observation without constant stimulation"
+    ]}
+  ]},
+  { id:"devtrack", emoji:"📱", title:"Development Tracking", notes:[], groups:[
+    { id:"devtrack.actions", title:"Actions", rawItems:[
+      "Install one primary milestone-tracking app: Pathways.org Baby Milestones",
+      "Add both parents/caregivers if helpful",
+      "Review milestones periodically",
+      "Use milestones as a monitoring tool, NOT as a competition",
+      "Ask the pediatrician about anything that seems concerning",
+      "Keep a simple record of major milestones"
+    ]}
+  ]},
+  { id:"docs", emoji:"🗂️", title:"Important Documents & Administration", notes:[], groups:[
+    { id:"docs.afterbirth", title:"Immediately After Birth", rawItems:[
+      "Confirm baby's legal name spelling",
+      "Confirm parents' names are correctly listed",
+      "Complete hospital birth registration paperwork",
+      "Obtain the official Birth Certificate",
+      "Obtain multiple certified copies of the Birth Certificate if useful",
+      "Apply for the baby's Social Security Number",
+      "Verify the Social Security card is received",
+      "Add baby to parents' health insurance",
+      "Confirm baby's pediatrician",
+      "Create a secure folder for all baby documents"
+    ]},
+    { id:"docs.folder", title:"Recommended Document Folder (scans + physical copies)", rawItems:[
+      "Birth Certificate",
+      "Social Security card",
+      "Passport",
+      "Health insurance information",
+      "Immunization records",
+      "Pediatrician records",
+      "Hospital discharge documents",
+      "Important medical test results",
+      "Emergency contact information",
+      "Parent identification documents relevant to travel"
+    ]}
+  ]},
+  { id:"travel", emoji:"🛂", title:"Passport & Travel", notes:[], groups:[
+    { id:"travel.firstmonths", title:"First Few Months", rawItems:[
+      "Decide whether international travel may happen during the first year",
+      "Apply for baby's U.S. passport if international travel is possible",
+      "Get compliant passport photos",
+      "Keep passport safely stored",
+      "Check destination-specific visa requirements before international travel",
+      "Research OCI / Indian passport / visa-related documentation if applicable to your family's situation",
+      "Create a travel folder with all required documents",
+      "Take short local trips to help him experience different safe environments",
+      "Visit family members when he is comfortable and healthy",
+      "Take stroller walks in different neighborhoods and parks",
+      "Introduce new environments gradually",
+      "Maintain familiar feeding, sleep, and comfort routines while traveling"
+    ]}
+  ]},
+  { id:"medical", emoji:"🩺", title:"Medical & Health", notes:[], groups:[
+    { id:"medical.pediatrician", title:"Pediatrician", rawItems:[
+      "Attend all recommended newborn and well-child appointments",
+      "Track weight",
+      "Track length/height",
+      "Track head circumference",
+      "Discuss feeding and growth",
+      "Discuss sleep",
+      "Discuss developmental milestones",
+      "Discuss vaccines",
+      "Ask about vitamin D supplementation if breastfeeding",
+      "Ask about iron needs as appropriate",
+      "Ask questions whenever something feels unusual",
+      "Ask when baby can safely participate in swimming, baby gymnastics, or other organized activities",
+      "Ask about hearing, vision, oral health, and dental care",
+      "Ask about sun protection and outdoor safety",
+      "Ask about safe babywearing and physical activities"
+    ]}
+  ]},
+  { id:"vaccine", emoji:"💉", title:"Vaccination Organization", notes:[], groups:[
+    { id:"vaccine.main", title:"Vaccination Organization", rawItems:[
+      "Follow the vaccination schedule recommended by your pediatrician",
+      "Keep an updated immunization record",
+      "Photograph/scan vaccine records",
+      "Record vaccine dates in your calendar",
+      "Ask the pediatrician about expected side effects",
+      "Know when to call the pediatrician after vaccination"
+    ]}
+  ]},
+  { id:"bonding", emoji:"❤️", title:"Bonding & Emotional Development", notes:[], groups:[
+    { id:"bonding.everyday", title:"Every Day", rawItems:[
+      "Hold him",
+      "Talk to him",
+      "Smile at him",
+      "Respond to him",
+      "Comfort him when distressed",
+      "Play face-to-face",
+      "Allow him to safely experience different environments",
+      "Create predictable routines as he gets older",
+      "Avoid unnecessary overstimulation",
+      "Dance while holding him securely and gently",
+      "Rock, sway, or bounce gently while singing",
+      "Play imitation games such as copying sounds, smiles, claps, and movements",
+      "Celebrate his attempts and efforts",
+      "Give him time to calm down when overwhelmed",
+      "Help him identify emotions through your voice and facial expressions",
+      "Offer comfort before trying to redirect him",
+      "Give him opportunities to choose between two safe options as he gets older"
+    ]}
+  ]},
+  { id:"cognitive", emoji:"🧠", title:"Brain & Cognitive Development", notes:["Example narration: “Daddy is changing your diaper.” “Now we are putting on your socks.” “Look at the light.” “That is Mommy.”"], groups:[
+    { id:"cognitive.daily", title:"Daily Activities", rawItems:[
+      "Talk about what you are doing",
+      "Describe objects",
+      "Name colors and objects as he gets older",
+      "Let him explore safe household objects",
+      "Play simple cause-and-effect games",
+      "Play peekaboo",
+      "Hide objects for him to find when developmentally appropriate",
+      "Encourage curiosity",
+      "Let him try things rather than immediately doing everything for him",
+      "Play “where is it?” games",
+      "Put a toy under a cloth and encourage him to find it",
+      "Offer simple puzzles and shape-sorters later in the first year",
+      "Let him watch you solve simple everyday problems",
+      "Give him safe objects to open, close, fill, empty, stack, and transfer",
+      "Play copying games such as tapping, clapping, waving, and nodding",
+      "Introduce simple routines and predictable sequences",
+      "Give him time to observe before stepping in",
+      "Encourage experimentation with safe materials"
+    ]}
+  ]},
+  { id:"language", emoji:"🗣️", title:"Language Development", notes:[], groups:[
+    { id:"language.everyday", title:"Every Day", rawItems:[
+      "Speak directly to him",
+      "Pause occasionally and allow him to respond with sounds",
+      "Copy some of his sounds and expressions",
+      "Narrate daily life",
+      "Read books",
+      "Sing songs",
+      "Use real words and normal language",
+      "Encourage gestures later in infancy",
+      "Respond when he babbles",
+      "Expand interaction as he grows",
+      "Use hand gestures while speaking",
+      "Teach simple gestures such as waving, clapping, pointing, and blowing kisses",
+      "Name familiar people",
+      "Name body parts during dressing and bathing",
+      "Ask simple questions and pause for a response",
+      "Repeat words frequently and naturally",
+      "Use songs with repeated words and actions",
+      "Introduce family languages consistently and naturally if raising him multilingual",
+      "Encourage him to imitate animal sounds",
+      "Celebrate communication attempts, even when words are not clear"
+    ]}
+  ]},
+  { id:"reading", emoji:"📚", title:"Reading Plan", notes:[], groups:[
+    { id:"reading.target", title:"Start Now — Daily Target", rawItems:[
+      "Read every day",
+      "Minimum: 5 minutes",
+      "Good target: 10–20 minutes total throughout the day",
+      "You can split it into several short sessions"
+    ]},
+    { id:"reading.0-3", title:"Book Types: 0–3 Months", rawItems:[
+      "High-contrast books",
+      "Black-and-white images",
+      "Faces",
+      "Simple patterns",
+      "Short rhythmic books",
+      "Soft books that can be safely viewed during supervised play"
+    ]},
+    { id:"reading.3-6", title:"Book Types: 3–6 Months", rawItems:[
+      "Bright colors",
+      "Simple pictures",
+      "Texture books",
+      "Books with faces and animals",
+      "Lift-the-flap books with adult assistance",
+      "Books with repetitive sounds"
+    ]},
+    { id:"reading.6-12", title:"Book Types: 6–12 Months", rawItems:[
+      "Board books",
+      "Animal books",
+      "First-word books",
+      "Touch-and-feel books",
+      "Simple repetitive stories",
+      "Picture naming books",
+      "Lift-the-flap books",
+      "Books with songs, rhymes, and actions",
+      "Books about emotions and daily routines",
+      "Let him turn pages with help",
+      "Let him point to pictures",
+      "Ask him to find familiar objects"
+    ]}
+  ]},
+  { id:"physical", emoji:"💪", title:"Physical Development", notes:[], groups:[
+    { id:"physical.0-3", title:"Birth → 3 Months", rawItems:[
+      "Supervised tummy time",
+      "Gradually increase tummy time",
+      "Encourage looking left and right",
+      "Encourage reaching toward interesting objects",
+      "Allow free movement on a safe floor",
+      "Gently move his arms and legs during songs",
+      "Practice supported upright holding",
+      "Carry him through different rooms and safe environments",
+      "Use gentle rocking, swaying, and bouncing while supporting his head",
+      "Place interesting faces or toys at different safe viewing angles"
+    ]},
+    { id:"physical.3-6", title:"3 → 6 Months", rawItems:[
+      "Encourage reaching",
+      "Encourage grasping",
+      "Encourage rolling",
+      "Place toys slightly out of reach",
+      "Give plenty of safe floor time",
+      "Play with soft balls",
+      "Encourage transferring objects from one hand to the other",
+      "Practice supported sitting",
+      "Play gentle “airplane” movements only when securely supported and comfortable",
+      "Dance, sway, and bounce gently to music",
+      "Encourage pushing up during tummy time",
+      "Offer safe objects with different shapes and textures"
+    ]},
+    { id:"physical.6-9", title:"6 → 9 Months", rawItems:[
+      "Encourage sitting and reaching",
+      "Encourage crawling",
+      "Create safe crawling spaces",
+      "Allow exploration",
+      "Avoid excessive time in containers",
+      "Set up simple obstacle paths using cushions under close supervision",
+      "Encourage crawling toward parents or favorite toys",
+      "Play rolling and chasing games with soft balls",
+      "Practice moving from sitting to reaching",
+      "Encourage pulling objects toward himself",
+      "Offer safe containers to fill and empty",
+      "Play music and encourage bouncing, clapping, and swaying",
+      "Practice supported standing when he shows readiness"
+    ]},
+    { id:"physical.9-12", title:"9 → 12 Months", rawItems:[
+      "Encourage pulling to stand",
+      "Encourage cruising along safe furniture",
+      "Encourage controlled climbing in safe environments",
+      "Practice standing and balance naturally through play",
+      "Avoid forcing walking before he is ready",
+      "Encourage pushing sturdy, age-appropriate push toys under supervision",
+      "Play follow-the-leader movement games",
+      "Encourage squatting to pick up toys",
+      "Practice walking between two trusted adults when ready",
+      "Play music and encourage dancing, bouncing, clapping, and turning",
+      "Create safe opportunities to move over different surfaces",
+      "Encourage carrying, placing, and transporting safe objects",
+      "Play simple ball games such as rolling, pushing, and retrieving"
+    ]}
+  ]},
+  { id:"outdoor", emoji:"🌳", title:"Outdoor & Nature Development", notes:[], groups:[
+    { id:"outdoor.weekly", title:"Every Week", rawItems:[
+      "Go outside",
+      "Walk with him in a stroller",
+      "Let him experience daylight safely",
+      "Show him trees",
+      "Show him animals",
+      "Let him hear birds and environmental sounds",
+      "Visit parks",
+      "Spend time around nature",
+      "Let him observe different environments",
+      "Watch clouds, leaves, shadows, and moving branches",
+      "Touch safe natural textures with supervision",
+      "Listen to rain, wind, birds, and water",
+      "Visit gardens, farms, or nature centers when appropriate",
+      "Have supervised blanket time outdoors",
+      "Take seasonal walks",
+      "Watch sunrise or sunset from a safe location",
+      "Visit a playground when developmentally appropriate",
+      "Let him observe people safely in public places",
+      "Explore different safe surfaces such as grass, sand, and smooth paths"
+    ]}
+  ]},
+  { id:"music", emoji:"🎵", title:"Music, Dance & Rhythm", notes:["Goal: enjoyment, connection, rhythm, coordination, and exposure — not training or performance."], groups:[
+    { id:"music.weekly", title:"Every Week", rawItems:[
+      "Sing to him",
+      "Play music",
+      "Clap and move rhythmically",
+      "Introduce different types of music",
+      "Dance with him",
+      "Allow him to experiment with safe sound-making toys later",
+      "Bounce gently to the beat while supporting him securely",
+      "Sway side to side while holding him",
+      "Tap simple rhythms on your knees",
+      "Clap slowly and quickly",
+      "Pause the music and restart it",
+      "Sing songs with hand motions",
+      "Play freeze-and-move games as he gets older",
+      "Encourage him to shake safe rattles or instruments",
+      "Introduce cultural and family music",
+      "Dance in front of a mirror",
+      "Let him watch different styles of movement",
+      "Encourage free movement rather than copying perfectly",
+      "Use music during transitions such as cleanup, bath time, or bedtime",
+      "Create a short family dance routine",
+      "Dance with scarves or lightweight fabric only under close supervision",
+      "Use simple rhythm instruments such as shakers, drums, or bells when age-appropriate"
+    ]}
+  ]},
+  { id:"social", emoji:"👶", title:"Social Development", notes:[], groups:[
+    { id:"social.gradual", title:"Gradually During the First Year", rawItems:[
+      "Let him interact with Mom",
+      "Let him interact with Dad",
+      "Introduce grandparents and family",
+      "Allow safe interaction with other babies",
+      "Attend baby-friendly activities when ready",
+      "Let him observe other children",
+      "Do not force social interaction when tired or overwhelmed",
+      "Practice waving hello and goodbye",
+      "Encourage smiling and responding to familiar people",
+      "Attend parent-and-baby music classes when appropriate",
+      "Attend library story time",
+      "Visit playgrounds and family-friendly public spaces",
+      "Let him watch people perform safe everyday activities",
+      "Encourage turn-taking games",
+      "Play simple social games such as peekaboo and pat-a-cake",
+      "Introduce trusted caregivers gradually",
+      "Help him practice separating and reuniting calmly",
+      "Encourage gentle interaction with pets under close supervision",
+      "Let him observe celebrations and family traditions without forcing participation"
+    ]}
+  ]},
+  { id:"water", emoji:"🏊", title:"Swimming / Water Familiarity", notes:["Important: Water activities are different from being “drown-proof.” Constant adult supervision is always required."], groups:[
+    { id:"water.firstyear", title:"During the First Year", rawItems:[
+      "Ask the pediatrician when your baby is ready for organized water activities",
+      "Consider parent-and-baby water familiarization classes when age-appropriate",
+      "Focus on comfort and enjoyment — not teaching independent swimming too early",
+      "Always maintain direct supervision around water",
+      "Never rely on flotation devices as supervision",
+      "Practice gentle water play during baths",
+      "Let him splash safely with hands and feet",
+      "Pour small amounts of water using cups during supervised play",
+      "Sing water-related songs",
+      "Introduce different water temperatures safely and gradually",
+      "Teach gentle water routines such as “water on hands” and “water on feet”",
+      "Keep bath time calm, playful, and brief enough to avoid fatigue"
+    ]}
+  ]},
+  { id:"activities", emoji:"👶", title:"Activities to Explore During the First Year", notes:[], groups:[
+    { id:"activities.athome", title:"At Home", rawItems:[
+      "Reading","Singing","Tummy time","Mirror play","Peekaboo",
+      "Sensory play","Texture exploration","Floor play","Reaching games",
+      "Grasping toys","Crawling games","Object exploration",
+      "Simple stacking later in the first year","Cause-and-effect toys",
+      "Dancing and gentle movement","Clapping games","Bouncing and swaying to music",
+      "Pat-a-cake","Waving and blowing kisses","Copying facial expressions",
+      "Copying sounds","Rolling soft balls","Pulling scarves from containers under supervision",
+      "Filling and emptying safe containers","Playing with measuring cups during supervised water play",
+      "Exploring safe household textures","Looking at family photos","Naming body parts",
+      "Sorting large safe objects by texture or color later in the first year",
+      "Building and knocking down soft blocks","Crawling through safe tunnels",
+      "Reaching for toys from different positions","Playing “find the toy”",
+      "Looking for hidden objects","Practicing simple gestures",
+      "Helping with simple routines such as putting toys away",
+      "Watching parents cook, fold laundry, or organize from a safe location",
+      "Exploring safe kitchen sounds and household sounds","Playing with soft sensory balls",
+      "Looking at shadows and reflections","Listening to different sounds",
+      "Practicing quiet time and observation"
+    ]},
+    { id:"activities.outside", title:"Outside Home", rawItems:[
+      "Parks","Nature walks","Library baby story time","Parent-and-baby activities",
+      "Water familiarization classes when appropriate","Playdates with other babies",
+      "Family visits","Age-appropriate music activities","Parent-and-baby dance classes",
+      "Baby yoga or movement classes when age-appropriate",
+      "Baby gymnastics or open-gym activities when age-appropriate",
+      "Museums with calm, baby-friendly spaces","Aquariums or zoos when appropriate",
+      "Farms or petting zoos with careful hygiene and supervision",
+      "Outdoor concerts or community events from a comfortable distance",
+      "Cultural festivals","Family celebrations","Storytelling events",
+      "Indoor play spaces when developmentally appropriate","Visits to playgrounds",
+      "Walks through gardens","Visits to bookstores","Parent-and-baby art or sensory classes",
+      "Music-and-movement classes","Visits with trusted relatives and friends",
+      "Short trips on public transportation when practical",
+      "Exploring different safe neighborhoods and environments"
+    ]}
+  ]},
+  { id:"home", emoji:"🏠", title:"Home Environment", notes:[], groups:[
+    { id:"home.main", title:"Create an Environment That Encourages Development", rawItems:[
+      "Safe floor space",
+      "Books accessible to parents and eventually baby",
+      "Limited clutter",
+      "Safe exploration areas",
+      "Age-appropriate toys",
+      "Rotate toys instead of having too many available",
+      "Encourage movement",
+      "Avoid keeping baby in containers for long periods",
+      "Keep screens from becoming background entertainment",
+      "Create a safe music and movement area",
+      "Keep soft balls, scarves, and simple instruments available when age-appropriate",
+      "Use mirrors safely and securely",
+      "Create a quiet corner for reading and calming down",
+      "Keep frequently used safe objects within reach as he becomes mobile",
+      "Baby-proof furniture, outlets, cords, stairs, cabinets, and windows",
+      "Secure heavy furniture to the wall",
+      "Keep small objects, batteries, magnets, medications, and cleaning products out of reach",
+      "Use gates and barriers where needed",
+      "Check toys regularly for damage or loose parts",
+      "Keep the floor clear for crawling and exploration"
+    ]}
+  ]},
+  { id:"toys", emoji:"🧸", title:"Toy Philosophy", notes:[
+    "You do NOT need many toys.",
+    "Avoid buying toys simply because they claim: “Brain development,” “Higher IQ,” “Early genius,” “Advanced learning.”",
+    "Interaction with people matters more than expensive educational toys."
+  ], groups:[
+    { id:"toys.prefer", title:"Prefer", rawItems:[
+      "Books","Rattles","Simple grasping toys","Soft balls","Stacking cups",
+      "Blocks","Cause-and-effect toys","Push toys later","Safe household objects",
+      "Soft scarves for supervised movement play","Simple musical instruments",
+      "Shakers","Baby-safe drums","Texture balls","Nesting cups",
+      "Large linking rings","Activity cubes","Shape-sorters later in the first year",
+      "Soft tunnels","Mirrors secured safely","Bath cups","Large sensory objects"
+    ]}
+  ]},
+  { id:"nutrition", emoji:"🥦", title:"Nutrition Development", notes:[], groups:[
+    { id:"nutrition.early", title:"Early Months", rawItems:[
+      "Establish healthy feeding",
+      "Monitor growth",
+      "Discuss feeding concerns with the pediatrician",
+      "Learn hunger cues",
+      "Learn fullness cues",
+      "Keep feeding calm and responsive",
+      "Avoid forcing feeding",
+      "Allow appropriate pauses during feeding",
+      "Talk and make eye contact during feeding when he is alert"
+    ]},
+    { id:"nutrition.solids", title:"Around Complementary Food Readiness", rawItems:[
+      "Discuss readiness for solids with the pediatrician",
+      "Introduce a variety of nutritious foods",
+      "Include diverse textures as appropriate",
+      "Introduce common allergens appropriately",
+      "Avoid forcing food",
+      "Allow exploration of food",
+      "Encourage self-feeding when developmentally appropriate",
+      "Continue appropriate milk feeding during the first year",
+      "Offer safe opportunities to touch and smell foods",
+      "Introduce different colors, flavors, and textures gradually",
+      "Eat together as a family when practical",
+      "Model healthy eating",
+      "Use mealtimes for conversation and social connection",
+      "Keep mealtimes calm and supervised",
+      "Learn infant choking-prevention practices",
+      "Avoid unsafe foods and choking hazards"
+    ]}
+  ]},
+  { id:"sleep", emoji:"😴", title:"Sleep Development", notes:[], groups:[
+    { id:"sleep.main", title:"Sleep Development", rawItems:[
+      "Follow safe sleep practices",
+      "Learn baby's sleep patterns",
+      "Create calming routines",
+      "Avoid comparing sleep with other babies",
+      "Gradually build predictable routines as appropriate",
+      "Protect naps and nighttime sleep",
+      "Avoid overstimulation before sleep",
+      "Use quiet singing, reading, rocking, or gentle swaying as part of bedtime",
+      "Keep bedtime routines consistent when possible",
+      "Watch for signs of tiredness",
+      "Allow adequate recovery time after busy outings",
+      "Balance active play with quiet time"
+    ]}
+  ]},
+  { id:"memories", emoji:"📸", title:"Memories & Family History", notes:[], groups:[
+    { id:"memories.year", title:"During the First Year", rawItems:[
+      "Take monthly photos",
+      "Record height and weight milestones",
+      "Record first smile",
+      "Record first laugh",
+      "Record first word",
+      "Record first crawl",
+      "Record first steps",
+      "Record funny sounds and personality traits",
+      "Write short notes about important memories",
+      "Take photos with Mom",
+      "Take photos with Dad",
+      "Take photos with grandparents and family",
+      "Back up important photos",
+      "Record favorite songs",
+      "Record favorite books",
+      "Record favorite games",
+      "Record his reactions to music and dancing",
+      "Record first clapping, waving, pointing, and copying",
+      "Save artwork, handprints, footprints, or other keepsakes",
+      "Record family traditions and celebrations",
+      "Create a short monthly video showing his personality and movement",
+      "Write a letter to him at the end of the first year"
+    ]}
+  ]},
+  { id:"experiences", emoji:"🎂", title:"First-Year Experiences", notes:[], groups:[
+    { id:"experiences.list", title:"Try to give him healthy exposure to", rawItems:[
+      "Books","Music","Dancing","Rhythm","Nature","Parks","Animals","Water",
+      "Other babies","Family","Different safe environments","Different sounds",
+      "Different textures","Different healthy foods","Love and affection from trusted people",
+      "Cultural traditions","Family celebrations","Art and visual patterns",
+      "Movement and exercise","Quiet observation","Social games","Simple problem-solving",
+      "Safe household routines","Different voices and languages","Different types of music",
+      "Outdoor weather experiences","Safe community activities","Opportunities to make choices",
+      "Opportunities to try, pause, and try again"
+    ]}
+  ]}
+];
+
+const RAW_ROADMAP = [
+  { id:"0-1", title:"0–1 Month", subtitle:"Newborn Foundations", rawItems:[
+    "Feeding established","Safe sleep","Pediatrician visits","Bonding","Talking",
+    "Eye contact","Short supervised tummy time","Reading","Birth documentation",
+    "Health insurance","Social Security paperwork","Gentle singing",
+    "Gentle swaying while securely holding him","Calm skin-to-skin contact as appropriate",
+    "Short outdoor walks when medically appropriate","Introduce quiet household sounds",
+    "Allow periods of calm observation"
+  ]},
+  { id:"1-3", title:"1–3 Months", subtitle:"Early Interaction", rawItems:[
+    "Increase interaction","More tummy time","Encourage head control","Talk frequently",
+    "Daily reading","Smiling and face-to-face interaction","Music and singing",
+    "Outdoor walks","Apply for passport if needed","Dance gently while holding him securely",
+    "Play simple rhythm games","Use mirrors during supervised play",
+    "Encourage looking at faces, patterns, and moving objects","Introduce different safe textures",
+    "Practice copying sounds and facial expressions","Visit trusted family members"
+  ]},
+  { id:"3-6", title:"3–6 Months", subtitle:"Rolling & Reaching", rawItems:[
+    "Rolling","Reaching","Grasping","Laughing","More social interaction","More floor time",
+    "Introduce different environments","Library/story activities","Begin researching baby activities",
+    "Discuss future solids with pediatrician","Dance, sway, clap, and bounce gently to music",
+    "Encourage reaching for musical toys","Practice supported sitting",
+    "Play peekaboo and imitation games","Explore safe textures","Play with soft balls",
+    "Take nature walks","Attend age-appropriate music-and-movement activities",
+    "Encourage rolling toward toys"
+  ]},
+  { id:"6-9", title:"6–9 Months", subtitle:"Sitting & Crawling", rawItems:[
+    "Sitting","Crawling","Exploration","Babbling","Gestures",
+    "Start complementary foods when ready","Encourage self-feeding skills as appropriate",
+    "Safe exploration","Baby social activities","Consider parent-and-baby water activities",
+    "Encourage clapping, waving, pointing, and bouncing","Dance and move to music",
+    "Play simple rhythm games","Practice filling and emptying containers",
+    "Play hide-and-find games","Encourage crawling through safe spaces",
+    "Explore parks, libraries, and baby-friendly activities",
+    "Introduce simple instruments under supervision","Practice turn-taking games",
+    "Encourage safe interaction with trusted family members"
+  ]},
+  { id:"9-12", title:"9–12 Months", subtitle:"Cruising to Walking", rawItems:[
+    "Crawling and mobility","Pulling to stand","Cruising","Fine motor development",
+    "Gestures","Early words","Social interaction","Independent exploration",
+    "Books every day","Outdoor activities","Water familiarity","Celebrate first birthday",
+    "Dance, clap, bounce, and move to music","Copy simple actions",
+    "Play follow-the-leader games","Practice waving and blowing kisses",
+    "Encourage safe climbing and movement","Play simple ball games",
+    "Encourage helping with cleanup","Offer simple choices",
+    "Attend age-appropriate music, movement, or baby gymnastics activities",
+    "Visit parks, gardens, libraries, and family-friendly community spaces",
+    "Encourage pointing, naming, and identifying familiar objects",
+    "Practice simple instructions through play"
+  ]}
+];
+
+const MILESTONE_TITLES = [
+  "First smile","First laugh","Rolls over","Sits independently","Crawls",
+  "Pulls to stand","First word","First steps","First time clapping",
+  "First time waving","First time dancing or bouncing to music",
+  "First time copying an action","First time pointing",
+  "First time following a simple instruction"
+];
+
+const PRIORITIES = [
+  "Health","Safe Sleep","Good Nutrition","Loving Responsive Parenting","Talking",
+  "Reading","Music","Dancing","Movement","Floor Time","Outdoor Time","Play",
+  "Human Connection","Curiosity","Rest","Laughter","Safe Exploration","Family Time"
+];
+
+const WONT_WORRY = [
+  "Making him “advanced” compared with other babies",
+  "Expensive developmental toys",
+  "Flashcards for babies",
+  "Academic pressure",
+  "Comparing milestones with other children",
+  "Trying to accelerate every skill",
+  "Filling every minute with activities",
+  "Making him perform songs, dances, or tricks",
+  "Expecting him to enjoy every activity",
+  "Forcing social interaction",
+  "Forcing movement before he is ready",
+  "Treating every outing as a developmental lesson",
+  "Feeling guilty when we need quiet days",
+  "Comparing his personality with other children"
+];
+
+const CORE_REMINDER = "My goal is not to create a perfect child. My goal is to give my son a healthy body, a secure heart, a curious mind, confidence to explore, the ability to think for himself, and the knowledge that he is deeply loved. If I consistently provide love, safety, conversation, reading, movement, music, dancing, healthy nutrition, sleep, play, and opportunities to explore, I am giving him an extraordinary foundation for reaching his own best potential.";
+
+// ================== BUILD INDEXED DATA ==================
+function buildSections(raw) {
+  return raw.map(s => ({
+    id: s.id, emoji: s.emoji, title: s.title, notes: s.notes || [],
+    groups: s.groups.map(g => ({
+      id: g.id, title: g.title,
+      items: g.rawItems.map((text, i) => ({ id: g.id + "." + i, text: text }))
+    }))
+  }));
+}
+function buildRoadmap(raw) {
+  return raw.map(s => ({
+    id: s.id, title: s.title, subtitle: s.subtitle,
+    items: s.rawItems.map((text, i) => ({ id: "roadmap." + s.id + "." + i, text: text }))
+  }));
+}
+
+const PLAN_SECTIONS = buildSections(RAW_SECTIONS);
+const ROADMAP_STAGES = buildRoadmap(RAW_ROADMAP);
+const DAILY_SECTION = PLAN_SECTIONS.find(function(s){ return s.id === "daily"; });
+const PHYSICAL_SECTION = PLAN_SECTIONS.find(function(s){ return s.id === "physical"; });
+const READING_SECTION = PLAN_SECTIONS.find(function(s){ return s.id === "reading"; });
+
+function sectionItemIds(section) {
+  var ids = [];
+  section.groups.forEach(function(g){ g.items.forEach(function(i){ ids.push(i.id); }); });
+  return ids;
+}
+function allItemIds() {
+  var ids = [];
+  PLAN_SECTIONS.forEach(function(s){ ids = ids.concat(sectionItemIds(s)); });
+  return ids;
+}
+
+// ================== AGE HELPERS ==================
+function parseISODate(iso) {
+  var parts = iso.split("-").map(Number);
+  return new Date(parts[0], parts[1] - 1, parts[2]);
+}
+function todayISO() {
+  var d = new Date();
+  function pad(n) { return String(n).padStart(2, "0"); }
+  return d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate());
+}
+function ageInDays(birth, asOf) {
+  asOf = asOf || new Date();
+  var start = new Date(birth.getFullYear(), birth.getMonth(), birth.getDate());
+  var end = new Date(asOf.getFullYear(), asOf.getMonth(), asOf.getDate());
+  return Math.round((end - start) / 86400000);
+}
+function ageMonthsDays(birth, asOf) {
+  asOf = asOf || new Date();
+  var months = (asOf.getFullYear() - birth.getFullYear()) * 12 + (asOf.getMonth() - birth.getMonth());
+  var days = asOf.getDate() - birth.getDate();
+  if (days < 0) {
+    months -= 1;
+    var prevMonthLastDay = new Date(asOf.getFullYear(), asOf.getMonth(), 0).getDate();
+    days += prevMonthLastDay;
+  }
+  if (months < 0) { months = 0; }
+  return { months: months, days: Math.max(days, 0) };
+}
+function ageInMonthsFraction(birth, asOf) {
+  return Math.max(ageInDays(birth, asOf), 0) / 30.4375;
+}
+function roadmapStageForMonths(m) {
+  if (m < 1) return ROADMAP_STAGES[0];
+  if (m < 3) return ROADMAP_STAGES[1];
+  if (m < 6) return ROADMAP_STAGES[2];
+  if (m < 9) return ROADMAP_STAGES[3];
+  return ROADMAP_STAGES[4];
+}
+function physicalGroupForMonths(m) {
+  if (m < 3) return PHYSICAL_SECTION.groups[0];
+  if (m < 6) return PHYSICAL_SECTION.groups[1];
+  if (m < 9) return PHYSICAL_SECTION.groups[2];
+  return PHYSICAL_SECTION.groups[3];
+}
+function readingGroupForMonths(m) {
+  if (m < 3) return READING_SECTION.groups[1];
+  if (m < 6) return READING_SECTION.groups[2];
+  return READING_SECTION.groups[3];
+}
+
+// ================== PERSISTENCE ==================
+const KEYS = { checked: "babyplan.checkedIds.v1", milestones: "babyplan.milestones.v1", profile: "babyplan.profile.v1" };
+
+function safeGet(key) { try { return localStorage.getItem(key); } catch (e) { return null; } }
+function safeSet(key, value) { try { localStorage.setItem(key, value); } catch (e) {} }
+
+function loadChecked() {
+  try {
+    var raw = safeGet(KEYS.checked);
+    return new Set(raw ? JSON.parse(raw) : []);
+  } catch (e) { return new Set(); }
+}
+function loadMilestones() {
+  try {
+    var raw = safeGet(KEYS.milestones);
+    if (raw) return JSON.parse(raw);
+  } catch (e) {}
+  return MILESTONE_TITLES.map(function(t, i) { return { id: "milestone." + i, title: t, achieved: false, date: null }; });
+}
+function loadProfile() {
+  try {
+    var raw = safeGet(KEYS.profile);
+    if (raw) return JSON.parse(raw);
+  } catch (e) {}
+  return { name: "", birthDate: null };
+}
+
+const state = { checked: loadChecked(), milestones: loadMilestones(), profile: loadProfile() };
+
+function saveChecked() { safeSet(KEYS.checked, JSON.stringify(Array.from(state.checked))); }
+function saveMilestones() { safeSet(KEYS.milestones, JSON.stringify(state.milestones)); }
+function saveProfile() { safeSet(KEYS.profile, JSON.stringify(state.profile)); }
+
+function progressCounts(ids) {
+  var done = ids.filter(function(id){ return state.checked.has(id); }).length;
+  return { done: done, total: ids.length };
+}
+
+// ================== UI STATE ==================
+const ui = { tab: "today", sectionDetail: null, stageDetail: null, editingProfile: false };
+
+// ================== RENDER HELPERS ==================
+function escapeHTML(str) {
+  return String(str).replace(/[&<>"']/g, function(c) {
+    return { "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;" }[c];
+  });
+}
+const CHECK_SVG = '<svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 8.5L6.2 11.7L13 4.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+
+function checklistRowHTML(item) {
+  var checked = state.checked.has(item.id);
+  return '<li class="row' + (checked ? " is-checked" : "") + '" data-item-id="' + escapeHTML(item.id) + '">' +
+    '<span class="row-check">' + (checked ? CHECK_SVG : "") + '</span>' +
+    '<span class="row-text">' + escapeHTML(item.text) + '</span></li>';
+}
+function checklistHTML(items) {
+  return '<ul class="checklist">' + items.map(checklistRowHTML).join("") + '</ul>';
+}
+
+// ================== VIEW: TODAY ==================
+function todayHTML() {
+  var ids = allItemIds();
+  var counts = progressCounts(ids);
+  var pct = counts.total ? Math.round(100 * counts.done / counts.total) : 0;
+  var hasProfile = !!state.profile.birthDate;
+
+  var profileBlock = "";
+  var suggestionsBlock = "";
+
+  if (hasProfile && !ui.editingProfile) {
+    var birth = parseISODate(state.profile.birthDate);
+    var md = ageMonthsDays(birth);
+    var monthsFrac = ageInMonthsFraction(birth);
+    var name = state.profile.name.trim() || "Your baby";
+
+    profileBlock =
+      '<section class="card">' +
+        '<p class="age-line">' + escapeHTML(name) + ' is ' + md.months + ' month' + (md.months === 1 ? "" : "s") +
+        ', ' + md.days + ' day' + (md.days === 1 ? "" : "s") + ' old</p>' +
+        '<p class="card-hint">Suggestions below are matched to this age automatically.</p>' +
+        '<button class="link-btn" data-action="edit-profile">Edit</button>' +
+      '</section>';
+
+    var stage = roadmapStageForMonths(monthsFrac);
+    var physicalGroup = physicalGroupForMonths(monthsFrac);
+    var readingGroup = readingGroupForMonths(monthsFrac);
+    var readingTarget = READING_SECTION.groups[0];
+
+    suggestionsBlock =
+      '<div class="section-block">' +
+        '<h2 class="section-heading">📅 This Stage</h2>' +
+        '<p class="stage-name">' + escapeHTML(stage.title) + '</p>' +
+        '<p class="card-hint">' + escapeHTML(stage.subtitle) + '</p>' +
+        checklistHTML(stage.items) +
+      '</div>' +
+      '<div class="section-block">' +
+        '<h2 class="section-heading">💪 Physical Development</h2>' +
+        '<p class="stage-name">' + escapeHTML(physicalGroup.title) + '</p>' +
+        checklistHTML(physicalGroup.items) +
+      '</div>' +
+      '<div class="section-block">' +
+        '<h2 class="section-heading">📚 Reading</h2>' +
+        '<p class="stage-name">' + escapeHTML(readingGroup.title) + '</p>' +
+        checklistHTML(readingTarget.items) +
+        checklistHTML(readingGroup.items) +
+      '</div>';
+  } else {
+    profileBlock =
+      '<section class="card">' +
+        '<h2 class="card-title">Get suggestions for today</h2>' +
+        '<p class="card-hint">Add your baby&#39;s name and birth date and this tab will automatically surface the right activities for their current age.</p>' +
+        '<label class="field"><span>Name</span>' +
+          '<input type="text" id="profile-name-input" value="' + escapeHTML(state.profile.name) + '" placeholder="Baby\u2019s name"></label>' +
+        '<label class="field"><span>Birth date</span>' +
+          '<input type="date" id="profile-date-input" value="' + escapeHTML(state.profile.birthDate || "") + '" max="' + todayISO() + '"></label>' +
+        '<div class="field-actions">' +
+          '<button class="btn-primary" data-action="save-profile">Save</button>' +
+          (hasProfile ? '<button class="btn-secondary" data-action="cancel-edit-profile">Cancel</button>' : "") +
+        '</div>' +
+      '</section>';
+  }
+
+  return (
+    '<div class="nav-title-bar"><h1>Today</h1></div>' +
+    '<section class="card">' +
+      '<p class="progress-label">' + counts.done + ' of ' + counts.total + ' activities checked off</p>' +
+      '<div class="progress-track"><div class="progress-fill" style="width:' + pct + '%"></div></div>' +
+    '</section>' +
+    profileBlock +
+    suggestionsBlock +
+    '<div class="section-block">' +
+      '<h2 class="section-heading">⭐ Daily Foundation</h2>' +
+      checklistHTML(DAILY_SECTION.groups[0].items) +
+    '</div>'
+  );
+}
+
+// ================== VIEW: SECTIONS ==================
+function sectionsListHTML() {
+  var rows = PLAN_SECTIONS.map(function(s) {
+    var ids = sectionItemIds(s);
+    var c = progressCounts(ids);
+    return '<li class="list-row" data-open-section="' + s.id + '">' +
+      '<span class="list-row-emoji">' + s.emoji + '</span>' +
+      '<span class="list-row-body">' +
+        '<span class="list-row-title">' + escapeHTML(s.title) + '</span>' +
+        '<span class="list-row-sub">' + c.done + ' of ' + c.total + ' done</span>' +
+      '</span>' +
+      '<span class="list-row-chevron">&rsaquo;</span>' +
+    '</li>';
+  }).join("");
+  return '<div class="nav-title-bar"><h1>Sections</h1></div><ul class="list">' + rows + '</ul>';
+}
+
+function sectionDetailHTML(id) {
+  var section = PLAN_SECTIONS.find(function(s){ return s.id === id; });
+  if (!section) return sectionsListHTML();
+  var notesHTML = section.notes.length
+    ? '<section class="card notes-card">' + section.notes.map(function(n){ return '<p>' + escapeHTML(n) + '</p>'; }).join("") + '</section>'
+    : "";
+  var groupsHTML = section.groups.map(function(g) {
+    return '<div class="section-block"><h2 class="section-heading">' + escapeHTML(g.title) + '</h2>' + checklistHTML(g.items) + '</div>';
+  }).join("");
+  return (
+    '<div class="nav-title-bar"><button class="back-btn" data-action="back-sections">&lsaquo; Sections</button></div>' +
+    '<h1 class="detail-title">' + section.emoji + ' ' + escapeHTML(section.title) + '</h1>' +
+    notesHTML + groupsHTML
+  );
+}
+
+// ================== VIEW: ROADMAP ==================
+function roadmapListHTML() {
+  var rows = ROADMAP_STAGES.map(function(stage) {
+    var ids = stage.items.map(function(i){ return i.id; });
+    var c = progressCounts(ids);
+    return '<li class="list-row" data-open-stage="' + stage.id + '">' +
+      '<span class="list-row-body">' +
+        '<span class="list-row-title">' + escapeHTML(stage.title) + '</span>' +
+        '<span class="list-row-sub">' + escapeHTML(stage.subtitle) + '</span>' +
+        '<span class="list-row-sub">' + c.done + ' of ' + c.total + ' done</span>' +
+      '</span>' +
+      '<span class="list-row-chevron">&rsaquo;</span>' +
+    '</li>';
+  }).join("");
+  return '<div class="nav-title-bar"><h1>Age-by-Age Roadmap</h1></div><ul class="list">' + rows + '</ul>';
+}
+
+function stageDetailHTML(id) {
+  var stage = ROADMAP_STAGES.find(function(s){ return s.id === id; });
+  if (!stage) return roadmapListHTML();
+  return (
+    '<div class="nav-title-bar"><button class="back-btn" data-action="back-roadmap">&lsaquo; Roadmap</button></div>' +
+    '<h1 class="detail-title">' + escapeHTML(stage.title) + '</h1>' +
+    '<p class="card-hint detail-subtitle">' + escapeHTML(stage.subtitle) + '</p>' +
+    '<div class="section-block"><h2 class="section-heading">Primary Goals</h2>' + checklistHTML(stage.items) + '</div>'
+  );
+}
+
+// ================== VIEW: MILESTONES ==================
+function milestonesHTML() {
+  var rows = state.milestones.map(function(m) {
+    var dateInput = m.achieved
+      ? '<input type="date" class="milestone-date" data-milestone-date="' + escapeHTML(m.id) + '" value="' + escapeHTML(m.date || todayISO()) + '">'
+      : "";
+    return '<li class="milestone-row">' +
+      '<div class="milestone-toggle-row" data-milestone-toggle="' + escapeHTML(m.id) + '">' +
+        '<span class="row-check' + (m.achieved ? " is-checked" : "") + '">' + (m.achieved ? CHECK_SVG : "") + '</span>' +
+        '<span class="row-text' + (m.achieved ? " is-checked-text" : "") + '">' + escapeHTML(m.title) + '</span>' +
+      '</div>' + dateInput +
+    '</li>';
+  }).join("");
+  return '<div class="nav-title-bar"><h1>Milestones</h1></div><ul class="list milestone-list">' + rows + '</ul>';
+}
+
+// ================== VIEW: MORE ==================
+function moreHTML() {
+  var hasProfile = !!state.profile.birthDate;
+  var profileSection;
+  if (ui.editingProfile || !hasProfile) {
+    profileSection =
+      '<section class="card">' +
+        '<label class="field"><span>Name</span>' +
+          '<input type="text" id="profile-name-input-more" value="' + escapeHTML(state.profile.name) + '" placeholder="Baby\u2019s name"></label>' +
+        '<label class="field"><span>Birth date</span>' +
+          '<input type="date" id="profile-date-input-more" value="' + escapeHTML(state.profile.birthDate || "") + '" max="' + todayISO() + '"></label>' +
+        '<div class="field-actions">' +
+          '<button class="btn-primary" data-action="save-profile-more">Save</button>' +
+          (hasProfile ? '<button class="btn-secondary" data-action="cancel-edit-profile">Cancel</button>' : "") +
+        '</div>' +
+      '</section>';
+  } else {
+    var birth = parseISODate(state.profile.birthDate);
+    var md = ageMonthsDays(birth);
+    profileSection =
+      '<section class="card">' +
+        '<p class="age-line">' + escapeHTML(state.profile.name || "Unnamed") + '</p>' +
+        '<p class="card-hint">' + md.months + ' months, ' + md.days + ' days old</p>' +
+        '<button class="link-btn" data-action="edit-profile">Edit Profile</button>' +
+      '</section>';
+  }
+
+  return (
+    '<div class="nav-title-bar"><h1>More</h1></div>' +
+    '<div class="section-block"><h2 class="section-heading">👶 Baby Profile</h2>' + profileSection + '</div>' +
+    '<div class="section-block"><h2 class="section-heading">🏆 My First-Year Priorities</h2>' +
+      '<ul class="plain-list">' + PRIORITIES.map(function(p){ return '<li>' + escapeHTML(p) + '</li>'; }).join("") + '</ul>' +
+    '</div>' +
+    '<div class="section-block"><h2 class="section-heading">🚫 Things I Will Not Worry About</h2>' +
+      '<ul class="plain-list">' + WONT_WORRY.map(function(p){ return '<li>' + escapeHTML(p) + '</li>'; }).join("") + '</ul>' +
+    '</div>' +
+    '<div class="section-block"><h2 class="section-heading">❤️ Core Parenting Reminder</h2>' +
+      '<blockquote class="reminder-quote">' + escapeHTML(CORE_REMINDER) + '</blockquote>' +
+    '</div>' +
+    '<div class="section-block"><button class="btn-danger" data-action="reset-all">Reset all checkmarks</button></div>'
+  );
+}
+
+// ================== DISPATCH / RENDER ==================
+const appMain = document.getElementById("app-main");
+
+function currentViewHTML() {
+  switch (ui.tab) {
+    case "today": return todayHTML();
+    case "sections": return ui.sectionDetail ? sectionDetailHTML(ui.sectionDetail) : sectionsListHTML();
+    case "roadmap": return ui.stageDetail ? stageDetailHTML(ui.stageDetail) : roadmapListHTML();
+    case "milestones": return milestonesHTML();
+    case "more": return moreHTML();
+    default: return todayHTML();
+  }
+}
+
+function render() {
+  appMain.innerHTML = currentViewHTML();
+  document.querySelectorAll(".tab-btn").forEach(function(btn) {
+    btn.classList.toggle("active", btn.dataset.tab === ui.tab);
+  });
+}
+
+function rerenderPreservingScroll() {
+  var y = appMain.scrollTop;
+  render();
+  appMain.scrollTop = y;
+}
+
+// ================== ACTIONS ==================
+function toggleItem(id) {
+  if (state.checked.has(id)) state.checked.delete(id); else state.checked.add(id);
+  saveChecked();
+  rerenderPreservingScroll();
+}
+function toggleMilestone(id) {
+  var m = state.milestones.find(function(x){ return x.id === id; });
+  if (!m) return;
+  m.achieved = !m.achieved;
+  if (m.achieved && !m.date) m.date = todayISO();
+  saveMilestones();
+  rerenderPreservingScroll();
+}
+function readProfileInputs(nameId, dateId) {
+  var nameEl = document.getElementById(nameId);
+  var dateEl = document.getElementById(dateId);
+  return { name: nameEl ? nameEl.value : "", birthDate: (dateEl && dateEl.value) ? dateEl.value : null };
+}
+function saveProfileFrom(nameId, dateId) {
+  var vals = readProfileInputs(nameId, dateId);
+  state.profile.name = vals.name;
+  state.profile.birthDate = vals.birthDate;
+  saveProfile();
+  ui.editingProfile = false;
+  render();
+}
+
+// ================== EVENTS ==================
+appMain.addEventListener("click", function(e) {
+  var el;
+
+  el = e.target.closest("[data-item-id]");
+  if (el) { toggleItem(el.dataset.itemId); return; }
+
+  el = e.target.closest("[data-open-section]");
+  if (el) { ui.sectionDetail = el.dataset.openSection; render(); return; }
+
+  el = e.target.closest("[data-open-stage]");
+  if (el) { ui.stageDetail = el.dataset.openStage; render(); return; }
+
+  el = e.target.closest('[data-action="back-sections"]');
+  if (el) { ui.sectionDetail = null; render(); return; }
+
+  el = e.target.closest('[data-action="back-roadmap"]');
+  if (el) { ui.stageDetail = null; render(); return; }
+
+  el = e.target.closest("[data-milestone-toggle]");
+  if (el) { toggleMilestone(el.dataset.milestoneToggle); return; }
+
+  el = e.target.closest('[data-action="save-profile"]');
+  if (el) { saveProfileFrom("profile-name-input", "profile-date-input"); return; }
+
+  el = e.target.closest('[data-action="save-profile-more"]');
+  if (el) { saveProfileFrom("profile-name-input-more", "profile-date-input-more"); return; }
+
+  el = e.target.closest('[data-action="edit-profile"]');
+  if (el) { ui.editingProfile = true; render(); return; }
+
+  el = e.target.closest('[data-action="cancel-edit-profile"]');
+  if (el) { ui.editingProfile = false; render(); return; }
+
+  el = e.target.closest('[data-action="reset-all"]');
+  if (el) {
+    if (confirm("Reset every checked item in Daily, Sections, and Roadmap checklists? Milestones are kept.")) {
+      state.checked = new Set();
+      saveChecked();
+      render();
+    }
+    return;
+  }
+});
+
+appMain.addEventListener("change", function(e) {
+  var dateInput = e.target.closest("[data-milestone-date]");
+  if (dateInput) {
+    var m = state.milestones.find(function(x){ return x.id === dateInput.dataset.milestoneDate; });
+    if (m) { m.date = dateInput.value; saveMilestones(); }
+  }
+});
+
+document.querySelectorAll(".tab-btn").forEach(function(btn) {
+  btn.addEventListener("click", function() {
+    ui.tab = btn.dataset.tab;
+    ui.sectionDetail = null;
+    ui.stageDetail = null;
+    ui.editingProfile = false;
+    render();
+  });
+});
+
+render();
+</script>
+</body>
+</html>
